@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dark {
+  background-color: black;
+}
+
+.dark * {
+  color: white !important;
+}
+#mode-btn {
+  background: transparent;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+}
