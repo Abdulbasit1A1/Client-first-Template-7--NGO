@@ -1,0 +1,13 @@
+.dark {
+  background-color: black;
+}
+
+.dark * {
+  color: white !important;
+}
+#mode-btn {
+  background: transparent;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+}
