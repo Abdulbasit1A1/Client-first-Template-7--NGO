@@ -1,1 +1,422 @@
 /* Abdullox saniki bu css. faqat shunda ishla */
+.what-we-do{
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.what-we-do-left img{
+    margin-left: -97px;
+    margin-bottom: 32px;
+}
+.what-we-do-left h1{
+font-family: Roboto;
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+width: 461px;
+margin-bottom: 34px;
+}
+.what-we-do-left p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+width: 594px;
+margin-right: 110px;
+}
+@media(max-width:1224px){
+    .what-we-do{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:720px){
+    .what-we-do-left img{
+        margin-left: 40px;
+    }
+    .what-we-do-left p{
+        flex-wrap: wrap;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:500px){
+    .home-img{
+        width: 100%;
+    }
+}
+@media(max-width:475px){
+    .what-we-do-left h1{
+        width: 300px;
+    }
+}
+.for-the-enviroment1{
+    display: flex;
+    gap: 62px;
+    margin-bottom: 48px;
+}
+.cities{
+    width: 384px;
+    height: 102px;
+}
+.cities div{
+ display: flex;
+ align-items: center;
+ gap: 24px;
+}
+.cities h3{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+
+}
+.cities p{
+font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+padding-left: 53px;
+margin-top: 8px;
+}
+.environment{
+    background: rgba(239, 247, 242, 1);
+padding-bottom: 104px;
+}
+.environment h2{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+padding-top: 96px;
+margin-bottom: 64px;
+}
+@media(max-width:1070px){
+    .for-the-enviroment1{
+     flex-wrap: wrap;
+     gap: 50px;
+    }
+}
+
+.projects-done h5{
+font-family: Roboto;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 2px;
+text-transform: uppercase;
+text-align: center;
+padding-top: 96px;
+margin-bottom: 16px;
+}
+.projects-done h2{
+font-family: Roboto;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+text-align: center;
+margin-bottom: 64px;
+
+}
+
+.sustainable{
+    display: flex;
+    gap: 24px;
+}
+.everyone1{
+    width: 411px;
+    height: 421px;
+    background-image: url(/images/what-we-do/bg-img-1.png); 
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.everyone2{
+    width: 411px;
+    height: 421px;
+    background-image: url(/images/what-we-do/bg-img-2.png); 
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.everyone3{
+    width: 411px;
+    height: 421px;
+    background-image: url(/images/what-we-do/bg-img-3.png); 
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.sustainable h3{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+color: rgba(255, 255, 255, 1);
+width: 315px;
+padding-top: 80px;
+padding-left: 48px;
+}
+.sustainable p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: rgba(255, 255, 255, 1);
+width: 315px;
+margin-top: 16px;
+padding-left: 48px;
+margin-bottom: 64px;
+}
+
+.sustainable button{
+    width: 132px;
+height: 51px;
+opacity: 1;
+top: 1850px;
+left: 158px;
+border-radius: 4px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+gap: 10px;
+background: rgba(255, 255, 255, 1);
+margin-left: 48px;
+border: none;
+}
+@media(max-width:1040px){
+    .sustainable{
+        flex-wrap: wrap;
+    }
+}
+.everyone4{
+    width: 1243px;
+    height: 384px;
+    background-image: url(/images/what-we-do/bg-img-4.png); 
+    background-repeat: no-repeat;
+    backdrop-filter: blur;
+    border-radius: 12px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+.everyone4 h2{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+text-align: center;
+padding-top: 96px;
+margin-bottom: 32px;
+color: white;
+}
+.everyone4-btn-1{
+    width: 200px;
+height: 51px;
+opacity: 1;
+top: 2286px;
+left: 576px;
+border-radius: 4px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+gap: 10px;
+background: rgba(112, 193, 116, 1);
+color: white;
+border: none;
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+text-align: right;
+margin-left: 430px;
+margin-right: 32px;
+}
+.everyone4-btn-2{
+    width: 116px;
+height: 51px;
+opacity: 1;
+top: 2286px;
+left: 808px;
+border-radius: 4px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+gap: 10px;
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+text-align: right;
+border: none;
+
+}
+@media(max-width:1258px){
+    .everyone4{
+        width: 100%;
+    }
+}
+@media(max-width:880px){
+    .everyone4-btn-1{
+        margin-left: 50px;
+    }
+}
+@media(max-width:660px){
+    .everyone4 h2{
+        padding-top: 10px;
+        font-size: 44px;
+    }
+}
+@media(max-width:480px){
+    .everyone4-btn-1{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+}
+.read-our-news h2{
+font-family: Roboto;
+font-weight: 500;
+font-size: 40px;
+line-height: 140%;
+margin-left: 304px;
+width: 275px;
+}
+.hr1{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.read-our{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+.hr{
+    width: 981px;
+    height: 0px;
+    border: 1px solid rgba(229, 229, 229, 1)
+}
+.our-news{
+width: 302px;
+height: 328px;
+}
+.our-news h4{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+margin-top: 16px;
+margin-bottom: 8px;
+}
+.our-news p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: rgba(82, 85, 96, 1);
+
+}
+@media(max-width:1295px){
+    .read-our{
+        flex-wrap: wrap;
+    }
+    .hr{
+        width: 100%;
+    }
+    .hr3{
+        width: 100%;
+    }
+}
+@media(max-width:940px){
+    .read-our{
+        flex-wrap: wrap;
+    }
+    .hr{
+        display: none;
+    }
+    .hr3{
+        display: none;
+    }
+    .hr1 h2{
+        margin-left: 50px;
+    }
+    .hr2 h2{
+        margin-left: 50px;
+    }
+}
+.hr2{
+     display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.hr2 h2{
+    width: 194px;
+}
+.hr3{
+      width: 1062px;
+    height: 0px;
+    border: 1px solid rgba(229, 229, 229, 1)
+}
+.our-events{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 96px;
+}
+.events{
+    background: rgba(190, 243, 192, 1);
+width: 628px;
+height: 191px;
+border-radius: 8px;
+}
+.events button{
+     background: rgba(190, 243, 192, 1);
+     border: none;
+}
+.events h3{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+width: 381px;
+margin-left: 100px;
+margin-left: 121px;
+}
+.events-img-1{
+    padding-top: 32px;
+    padding-left: 40px;
+}
+.events-img-2{
+    margin-bottom: 50px;
+    margin-left: 24px;
+}
+.events-btn{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-top: -45px;
+}
+@media (max-width:1300px) {
+    .our-events{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:600px) {
+    .events{
+        width: 100%;
+    }
+}
+@media (max-width:465px) {
+    .events-btn h3{
+        font-size: 25px;
+    }
+}
+@media (max-width:405px) {
+    .events{
+        height: 230px;
+    }
+}
